@@ -1,0 +1,29 @@
+[project]
+name = "hello-pytest"
+version = "0.1.0"
+description = "A simple Flask app with pytest"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*", "tests*"]
+
+[tool.pytest.ini_options]
+markers = [
+    "sanity: marks tests as sanity tests (basic functionality checks)",
+    "regression: marks tests that check for regressions",
+    "smoke: marks tests that check basic functionality",
+    "validation: marks tests that validate data or functionality",
+    "controller: marks tests related to the controller layer",
+    "model: marks tests related to the model layer",
+    "router: marks tests related to the router layer",
+    "view: marks tests related to the view layer",
+    "api: marks tests related to the API endpoints",
+    "string: marks tests related to string utilities",
+    "math: marks tests related to math utilities",
+]
+# add default pytest options
+addopts = "-v -s"

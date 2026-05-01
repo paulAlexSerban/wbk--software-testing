@@ -1,0 +1,13 @@
+id,name,description,vat,cost,price
+1212,Widget A,High quality widget,20,10.00,15.00
+1213,Widget B,Medium quality widget,20,8.00,12.00
+1214,Widget C,Low quality widget,20,5.00,8.00
+1215,Widget D,Premium quality widget,20,15.00,22.00
+1216,Widget E,Standard quality widget,20,7.00,10.00
+1217,Widget F,Economy quality widget,20,3.00,5.00
+1218,Widget G,Deluxe quality widget,20,12.00,18.00
+1219,Widget H,Ultra quality widget,20,20.00,30.00
+1220,Widget I,Super quality widget,20,25.00,35.00
+1221,Widget J,Elite quality widget,20,30.00,45.00
+1222,Widget K,Pro quality widget,20,18.00,27.00
+1223,Widget L,Advanced quality widget,20,22.00,33.00
